@@ -114,6 +114,7 @@ class AddNewController extends CoreController {
   }
 
   void dispose() {
+    super.dispose();
     temp.clear();
     allExercises.clear();
     selectedExercises.clear();
